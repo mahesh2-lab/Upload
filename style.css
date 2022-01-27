@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+body
+{
+  background: hsla(342, 88%, 42%, 0.725);
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.container
+{
+  position: relative;
+  top: 0;
+  left: 0;
+  min-height: 92vh;
+  display: flex;  
+  align-items: center;
+  justify-content: center;
+}
+.box
+{
+  position: relative;
+  width: 400px;
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+  border: 3px dashed rgb(151, 120, 221);
+  border-radius: 10px;
+  background: #fff;
+
+}
+.box .input_bx
+{
+  position: relative;
+  top: 0;
+  left: 0;
+  margin-top: 10px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+.box .input_bx h4
+{
+  position: relative;
+  color: rgb(255, 255, 255);
+  background: rgb(121, 149, 228);
+  margin-top: 14px;
+  font-size: 40px;
+  height: 150px;
+  width: 360px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.box .input_bx input[type="submit"]
+{
+  position: relative;
+  height: 80px;
+  margin-top: 120px;
+  width: 300px;
+  border: none;
+  background: rgb(121, 149, 228);
+  font-size: 20px;
+  color: #fff;
+  border-radius: 5px;
+}
+.box .input_bx h4:hover
+{
+  background: rgb(76, 114, 219);
+  transition: 1s;
+  color: aqua;
+}
+.box .input_bx input[type="submit"]:hover
+{
+  background: rgb(76, 114, 219);
+  transition: 1s;
+  color: aqua;
+}
+.box .input_bx span 
+{
+  position: relative;
+  top: 20px;
+  margin-left: 10px;
+  color: blue;
+  font-size: 18px;
+}

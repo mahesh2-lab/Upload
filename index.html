@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title>Upload page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  </head>
+  <body>
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+     <div class="container">
+       <div class="box">
+         <div class="input_bx">
+           <h4>Choose File</h4>
+           <span>These Files Are stored in Mahesh's Server </span>
+           <input type="file" name="file" class="file" hidden/>
+         </div>
+         <div class="input_bx">
+           <input type="submit" value="Upload File" name="submit">
+         </div>
+        </div>
+    </form>
+    <script>
+ 
+ button = document.querySelector("h4"),
+ input = document.querySelector(".file");
+
+ button.onclick = ()=>{
+  input.click(); //if user click on the button then the input also clicked
+}
+    </script>
+  </body>
+</html>
